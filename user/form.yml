@@ -1,0 +1,10 @@
+
+
+name: Form
+parent: default
+
+matches: 
+  - trigger: ":greet"
+    form: |
+      Hey {{name}},
+      Happy Birthday!

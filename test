@@ -1,11 +1,7 @@
 
 
 
-Hi there!
 
-:div
-
-  !=   !=   !=  
 
 222.112.203.51
 :smile: :cat: 
@@ -20,6 +16,27 @@ Hi there!
 # it gets replaced by the "replace" string.
 auto_restart: true
 
+
+  # - trigger: 'gx'
+  #   replace: 'ĝ'
+  # - trigger: 'Hx'
+	#   replace: 'Ĥ'
+  # - trigger: 'hx'
+	#   replace: 'ĥ'
+  # - trigger: 'Jx'
+	#   replace: 'Ĵ'
+  # - trigger: 'jx'
+	#   replace: 'ĵ'
+  # - trigger: 'Sx'
+	#   replace: 'Ŝ'
+  # - trigger: 'sx'
+	#   replace: 'ŝ'
+  # - trigger: 'Ux'
+	#   replace: 'Ŭ'
+  # - trigger: 'ux'
+	#   replace: 'ŭ'
+
+    
 global_vars:
   - name: "global1"
     type: "shell"
