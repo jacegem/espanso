@@ -1,0 +1,8 @@
+name: English
+parent: default
+
+matches: 
+  - trigger: 'ㅐㅏㄱ'
+    replace: 'OKR'
+  - trigger: 'ㅁㅔㅑ'
+    replace: 'API'

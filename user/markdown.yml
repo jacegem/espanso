@@ -1,0 +1,10 @@
+name: Makrdown
+parent: default
+
+matches: 
+  - trigger: '#3'
+    replace: '###'
+  - trigger: '#4'
+    replace: '####'
+  - trigger: '#5'
+    replace: '#####'
