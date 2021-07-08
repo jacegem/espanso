@@ -1,0 +1,7 @@
+name: Coding HotString
+parent: default
+
+matches: 
+  - trigger: "ne"
+    replace: "!="
+    word: true

@@ -6,6 +6,18 @@
 
 # Matches are the substitution rules, when you type the "trigger" string
 # it gets replaced by the "replace" string.
+auto_restart: true
+
+global_vars:
+  - name: "global1"
+    type: "shell"
+    params:
+      cmd: "echo global var"
+  - name: "greet"
+    type: "dummy"
+    params:
+      echo: "Hey"
+
 matches:
   # Simple text replacement
   - trigger: ":espanso"
@@ -15,26 +27,18 @@ matches:
   - trigger: ":date"
     replace: "{{mydate}}"
     vars:
-      - n`ame: mydate
+      - name: mydate
         type: date
         params:
           format: "%m/%d/%Y"
 
-  # Dates
-  - trigger: "$$"
-    replace: "{{mydate}}"
+  - trigger: ":ip"
+    replace: "{{output}}"
     vars:
-      - name: mydate
-        type: date
+      - name: output
+        type: shell
         params:
-          format: "%Y-%m-%d"
-
-  - trigger: " ne "
-    replace: " != "
-
-  - trigger: "@@"
-    replace: "$$"
-
+          cmd: "curl 'https://api.ipify.org'"
 
   # Shell commands
   - trigger: ":shell"

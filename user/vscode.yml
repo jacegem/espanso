@@ -1,0 +1,6 @@
+filter_title: "com.microsoft.VSCode"
+
+matches: 
+  - trigger: ":div"
+    replace: "<div></div>"
+
