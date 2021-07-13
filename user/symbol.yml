@@ -2,6 +2,8 @@ name: Symbol
 parent: default
 
 matches:
+  - trigger: ";."
+    replace: "·"
   - trigger: ";c"
     replace: "✅"
   - trigger: ";ㅊ"
