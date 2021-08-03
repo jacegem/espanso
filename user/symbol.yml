@@ -28,5 +28,9 @@ matches:
     replace: "🟠"
   - trigger: ";ㅡ"
     replace: "🟠"
+  - trigger: ";u"
+    replace: "👍"
+  - trigger: ";ㅕ"
+    replace: "👍"
 # :white_check_mark:
 # :white large square:  :white large square:;ㅅ ;ㅊ
