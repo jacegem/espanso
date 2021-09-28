@@ -1,14 +1,13 @@
 name: Alphabet
 parent: default
-
-matches:
-  - trigger: ";ㅁ"
-    replace: "A"
-  - trigger: ";ㅠ"
-    replace: "B"
-  - trigger: ";ㅇ"
-    replace: "D"
-  - trigger: ";ㅎ"
-    replace: "G"
-  # - trigger: ";ㅌ"
-  #   replace: "X"
+# matches:
+# - trigger: ";ㅁ"
+#   replace: "A"
+# - trigger: ";ㅠ"
+#   replace: "B"
+# - trigger: ";ㅇ"
+#   replace: "D"
+# - trigger: ";ㅎ"
+#   replace: "G"
+# - trigger: ";ㅌ"
+#   replace: "X"
