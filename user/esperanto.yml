@@ -1,28 +1,28 @@
 name: Esperanto
 parent: default
 
-matches: 
-  - trigger: "Cx"
-    replace: 'Ĉ'
-  - trigger: "cx"
-    replace: 'ĉ'  
-  - trigger: 'Gx'
-    replace: 'Ĝ'
-  - trigger: 'gx'
-    replace: 'ĝ'
-  - trigger: 'Hx'
-    replace: 'Ĥ'
-  - trigger: 'hx'
-    replace: 'ĥ'
-  - trigger: 'Jx'
-    replace: 'Ĵ'
-  - trigger: 'jx'
-    replace: 'ĵ'
-  - trigger: 'Sx'
-    replace: 'Ŝ'
-  - trigger: 'sx'
-    replace: 'ŝ'
-  - trigger: 'Ux'
-    replace: 'Ŭ'
-  - trigger: 'ux'
-    replace: 'ŭ'
+matches:
+  - trigger: "Cxx"
+    replace: "Ĉ"
+  - trigger: "cxx"
+    replace: "ĉ"
+  - trigger: "Gxx"
+    replace: "Ĝ"
+  - trigger: "gxx"
+    replace: "ĝ"
+  - trigger: "Hxx"
+    replace: "Ĥ"
+  - trigger: "hxx"
+    replace: "ĥ"
+  - trigger: "Jxx"
+    replace: "Ĵ"
+  - trigger: "jxx"
+    replace: "ĵ"
+  - trigger: "Sxx"
+    replace: "Ŝ"
+  - trigger: "sxx"
+    replace: "ŝ"
+  - trigger: "Uxx"
+    replace: "Ŭ"
+  - trigger: "uxx"
+    replace: "ŭ"

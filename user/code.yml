@@ -1,7 +1,9 @@
 name: Coding HotString
 parent: default
 
-matches: 
+matches:
   - trigger: "ne"
     replace: "!="
     word: true
+  - trigger: "-="
+    replace: " → "
