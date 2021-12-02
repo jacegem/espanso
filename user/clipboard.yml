@@ -1,8 +1,8 @@
 name: Clipboard
 parent: default
 
-matches: 
-  - trigger: ":a"
+matches:
+  - trigger: "::a"
     replace: "<a href='{{clipboard}}' />$|$</a>"
     vars:
       - name: "clipboard"

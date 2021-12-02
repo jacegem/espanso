@@ -2,8 +2,14 @@ name: Coding HotString
 parent: default
 
 matches:
-  - trigger: "ne"
-    replace: "!="
+  - trigger: 'ne'
+    replace: '!='
     word: true
-  - trigger: "-="
-    replace: " → "
+  - trigger: ',.'
+    replace: '→ '
+  - trigger: '/cc'
+    replace: |
+      <code clojure>
+      $|$
+      </code>
+    backend: Auto
