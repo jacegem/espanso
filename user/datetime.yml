@@ -1,15 +1,14 @@
 name: Date & Time
 parent: default
 
-matches: 
+matches:
   # Dates
-  - trigger: "$$"
-    replace: "{{mydate}}"
+  - trigger: '$$'
+    replace: '{{mydate}}'
     vars:
       - name: mydate
         type: date
         params:
-          format: "%Y-%m-%d"
-          
-  - trigger: "@@"
-    replace: "$$"
+          format: '%Y-%m-%d'
+  - trigger: '@@'
+    replace: '$$'

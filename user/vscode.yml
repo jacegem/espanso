@@ -9,3 +9,20 @@ matches:
     replace: 'image'
   - trigger: '.ㅁㅇㅐㅊ'
     replace: '.adoc'
+  - trigger: ';qu'
+    replace: |
+      [quote]$|$
+  - trigger: ';py'
+    replace: |
+      [source,python]$|$
+  - trigger: ';cl'
+    replace: |
+      [source,clojure]$|$
+  - trigger: ';pl'
+    replace: |
+      [plantuml, target=diagram-classes, format=png]
+      ....
+      !theme toy
+      $|$
+      ....
+    backend: Auto
