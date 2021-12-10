@@ -12,10 +12,19 @@ matches:
   - trigger: ';qu'
     replace: |
       [quote]$|$
+  - trigger: ';ㅂㅕ'
+    replace: |
+      [quote]$|$
   - trigger: ';py'
     replace: |
       [source,python]$|$
+  - trigger: ';ㅔㅛ'
+    replace: |
+      [source,python]$|$
   - trigger: ';cl'
+    replace: |
+      [source,clojure]$|$
+  - trigger: ';ㅊㅣ'
     replace: |
       [source,clojure]$|$
   - trigger: ';pl'
@@ -25,4 +34,20 @@ matches:
       !theme toy
       $|$
       ....
-    backend: Auto
+  - trigger: ';ㅔㅣ'
+    replace: |
+      [plantuml, target=diagram-classes, format=png]
+      ....
+      !theme toy
+      $|$
+      ....
+  - trigger: ';ta'
+    replace: |
+      |===
+      $|$
+      |===
+  - trigger: ';ㅅㅁ'
+    replace: |
+      |===
+      $|$
+      |===
