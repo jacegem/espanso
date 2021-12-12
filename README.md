@@ -1,8 +1,12 @@
 # espanso
 
+https://espanso.org/
+
+## auto restart
+
 auto_restart: true
 
-##  espanso package list
+## espanso package list
 
 - all-emojis - 0.1.0
 - basic-emojis - 0.1.0
@@ -12,7 +16,6 @@ auto_restart: true
 - espanso path
 - espanso restart
 - espanso edit
-
 
 ## Source
 

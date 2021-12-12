@@ -1,5 +1,53 @@
-filter_title: "com.microsoft.VSCode"
+filter_title: 'com.microsoft.VSCode'
 
 matches:
-  - trigger: ":::div"
-    replace: "<div>$|$</div>"
+  - trigger: ':div'
+    replace: '<div>$|$</div>'
+  - trigger: '.ㅡㅇ'
+    replace: '.md'
+  - trigger: 'ㅑㅡㅁㅎㄷ'
+    replace: 'image'
+  - trigger: '.ㅁㅇㅐㅊ'
+    replace: '.adoc'
+  - trigger: ';qu'
+    replace: |
+      [quote]$|$
+  - trigger: ';ㅂㅕ'
+    replace: |
+      [quote]$|$
+  - trigger: ';py'
+    replace: |
+      [source,python]$|$
+  - trigger: ';ㅔㅛ'
+    replace: |
+      [source,python]$|$
+  - trigger: ';cl'
+    replace: |
+      [source,clojure]$|$
+  - trigger: ';ㅊㅣ'
+    replace: |
+      [source,clojure]$|$
+  - trigger: ';pl'
+    replace: |
+      [plantuml, target=diagram-classes, format=png]
+      ....
+      !theme toy
+      $|$
+      ....
+  - trigger: ';ㅔㅣ'
+    replace: |
+      [plantuml, target=diagram-classes, format=png]
+      ....
+      !theme toy
+      $|$
+      ....
+  - trigger: ';ta'
+    replace: |
+      |===
+      $|$
+      |===
+  - trigger: ';ㅅㅁ'
+    replace: |
+      |===
+      $|$
+      |===

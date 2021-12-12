@@ -1,7 +1,15 @@
 name: Coding HotString
 parent: default
 
-matches: 
-  - trigger: "ne"
-    replace: "!="
+matches:
+  - trigger: 'ne'
+    replace: '!='
     word: true
+  - trigger: ',.'
+    replace: '→ '
+  - trigger: '/cc'
+    replace: |
+      <code clojure>
+      $|$
+      </code>
+    backend: Auto
