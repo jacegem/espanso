@@ -1,5 +1,5 @@
 filter_title: "com.microsoft.VSCode"
 
 matches:
-  - trigger: ":div"
+  - trigger: ":::div"
     replace: "<div>$|$</div>"
