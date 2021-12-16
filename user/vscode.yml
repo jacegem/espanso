@@ -15,6 +15,18 @@ matches:
   - trigger: ';ㅂㅕ'
     replace: |
       [quote]$|$
+  - trigger: ';so'
+    replace: |
+      [source]
+      ....      
+      $|$
+      ....
+  - trigger: ';ㄴㅐ'
+    replace: |
+      [source]
+      ....      
+      $|$
+      ....
   - trigger: ';py'
     replace: |
       [source,python]$|$
@@ -29,14 +41,14 @@ matches:
       [source,clojure]$|$
   - trigger: ';pl'
     replace: |
-      [plantuml, target=diagram-classes, format=png]
+      [plantuml]
       ....
       !theme toy
       $|$
       ....
   - trigger: ';ㅔㅣ'
     replace: |
-      [plantuml, target=diagram-classes, format=png]
+      [plantuml]
       ....
       !theme toy
       $|$
