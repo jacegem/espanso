@@ -1,6 +1,15 @@
 filter_title: 'com.microsoft.VSCode'
 
 matches:
+  - trigger: 'ne'
+    replace: '!='
+    word: true
+  - trigger: '--'
+    replace: '->'
+    word: true
+  - trigger: '---'
+    replace: '->>'
+    word: true
   - trigger: ':div'
     replace: '<div>$|$</div>'
   - trigger: '.ㅡㅇ'
