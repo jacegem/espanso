@@ -12,3 +12,10 @@ matches:
           format: '%Y-%m-%d'
   - trigger: '@@'
     replace: '$$'
+  - trigger: '%%'
+    replace: '{{mydate}}'
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: '%H:%M'
