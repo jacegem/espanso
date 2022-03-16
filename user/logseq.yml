@@ -1,0 +1,13 @@
+filter_title: 'ccom.electron.logseq'
+
+
+matches:
+  - trigger: ' ne'
+    replace: ' !='
+    word: true
+  - trigger: '0-'
+    replace: '<-'
+  - trigger: '--'
+    replace: '->'
+  - trigger: '-='
+    replace: '->>'
