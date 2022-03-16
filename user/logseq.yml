@@ -1,5 +1,4 @@
-filter_title: 'ccom.electron.logseq'
-
+filter_title: 'com.electron.logseq'
 
 matches:
   - trigger: ' ne'
