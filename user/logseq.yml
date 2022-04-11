@@ -10,3 +10,9 @@ matches:
     replace: '->'
   - trigger: '-='
     replace: '->>'
+  - trigger: '/ㅇㅗ'  # 오늘
+    replace: 'today'  
+  - trigger: '/ㄴㅐ'  # 내일
+    replace: 'tomorrow'  
+  - trigger: '/ㅎㅏ'  # 할일
+    replace: 'todo'  
