@@ -1,6 +1,10 @@
 filter_title: 'com.electron.logseq'
 
 matches:
+  - trigger: ';c'  
+    replace: |
+      ```clojure$|$```
+    backend: Auto
   - trigger: ' ne'
     replace: ' !='
     word: true
