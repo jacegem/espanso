@@ -49,16 +49,16 @@ matches:
         params:
           cmd: "echo Hello from your shell"
 
-  - trigger: ":br"
-    replace: "Best Regards,\nJon Snow"
+  # - trigger: ":br"
+  #   replace: "Best Regards,\nJon Snow"
 
   - trigger: "brr"
     replace: "brr Best Regards,\nJon Snow"
 
-  - trigger: ":nested"
-    replace: "This is a {{output}} match"
-    vars:
-      - name: output
-        type: match
-        params:
-          trigger: ":one"
+  # - trigger: ":nested"
+  #   replace: "This is a {{output}} match"
+  #   vars:
+  #     - name: output
+  #       type: match
+  #       params:
+  #         trigger: ":one"
