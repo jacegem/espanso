@@ -1,8 +1,0 @@
-filter_title: 'notion.id'
-
-matches:
-  # - trigger: '--'
-  #   replace: '->'
-  #   word: true
-  - trigger: '-='
-    replace: '->'

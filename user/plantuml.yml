@@ -1,8 +1,0 @@
-name: Plantuml
-parent: default
-
-matches:
-  - trigger: "/nr"
-    replace: "note right\n$|$\nend note"
-  - trigger: "/ㅕㅡㅣ"
-    replace: "<uml>\n@startuml\n$|$\n@enduml\n</uml>"
