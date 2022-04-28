@@ -11,7 +11,7 @@ global_vars:
     params:
       echo: Hey
 matches:
-  - trigger: ":espanso"
+  - trigger: ":es"
     replace: Hi there!
   - trigger: ":date"
     replace: "{{mydate}}"
