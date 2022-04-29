@@ -13,6 +13,8 @@ matches:
     word: true
   - trigger: "'"
     replace: "\"$|$\""
+  - trigger: '"'
+    replace: "'$|$'"  
   - trigger: "-0"
     replace: "<-"
   - trigger: "-="
@@ -21,15 +23,27 @@ matches:
     replace: "->>"
   - trigger: "=0"
     replace: "<<-"
-  - trigger: /ㅇㅗ
+  - trigger: "ㅇ"
+    replace: today
+  - trigger: /ㅇㄴ
+    replace: today
+  - trigger: /dh
     replace: today
   - trigger: /ㄴㅐ
     replace: tomorrow
   - trigger: /ㅎㅏ
     replace: todo
-  - regex: "\\w="
-    replace: $1_
-  - regex: ":greet\\d"
-    replace: Hello!
+  - regex: "(?P<char>[a-zA-Z0-35-8]);"
+    replace: "{{char}}_"
+  - regex: ";var"
+    replace: "variable"
+  - regex: ";des"
+    replace: "description"
+  - regex: "4;"
+    replace: "${$|$}"
+  - regex: "9;"
+    replace: "($|$)"
+  - trigger: "0/0"
+    replace: "0.0.0.0/0"
 
     
