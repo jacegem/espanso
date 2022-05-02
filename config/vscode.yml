@@ -4,4 +4,5 @@
 filter_class: com.microsoft.VSCode
 extra_includes:
   - "../match/_vscode.yml"
+  - "../match/_quote.yml"
 
