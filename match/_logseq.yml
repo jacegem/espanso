@@ -12,9 +12,7 @@ matches:
     replace: " !="
     word: true
   - trigger: "''"
-    replace: "\"$|$\""
-  - trigger: '"'
-    replace: "'$|$'"  
+    replace: '"$|$"'
   - trigger: "-0"
     replace: "<-"
   - trigger: "-="

@@ -4,9 +4,14 @@
 matches:
   - trigger: ",."
     replace: "→ "
-  - trigger: /cc
+  - trigger: ;c
     replace: |
       <code clojure>
       $|$
       </code>
     backend: Auto
+  - trigger: ";d"
+    replace: |
+      <code dart>
+      $|$
+      </code>

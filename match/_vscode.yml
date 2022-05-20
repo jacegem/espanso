@@ -5,15 +5,13 @@ matches:
   - trigger: " ne"
     replace: " !="
     word: true
-  - trigger: "9"
-    replace: ($|$)
-  - trigger: "99"
-    replace: "9"
   - trigger: 0-
     replace: "<-"
-  - trigger: "--"
-    replace: "->"
+  - trigger: -0
+    replace: "<-"
   - trigger: "-="
+    replace: "->"
+  - trigger: "0="
     replace: "->>"
   - trigger: ":div"
     replace: "<div>$|$</div>"
