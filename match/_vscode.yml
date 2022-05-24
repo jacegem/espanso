@@ -51,6 +51,18 @@ matches:
   - trigger: ;ㅊㅣ
     replace: |
       [source,clojure]$|$
+  - trigger: ;ta
+    replace: |
+      ....
+      |===
+      $|$
+      |===
+      ....
+  - trigger: ;ㅅㅁ
+    replace: |
+      |===
+      $|$
+      |===
   - trigger: ;pl
     replace: |
       [plantuml]
@@ -65,16 +77,7 @@ matches:
       !theme toy
       $|$
       ....
-  - trigger: ;ta
-    replace: |
-      |===
-      $|$
-      |===
-  - trigger: ;ㅅㅁ
-    replace: |
-      |===
-      $|$
-      |===
+
   - trigger: p
     replace: +
     word: true

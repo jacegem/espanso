@@ -15,3 +15,5 @@ matches:
       <code dart>
       $|$
       </code>
+  - trigger: ";t"
+    replace: "{{tag>$|$}}"
