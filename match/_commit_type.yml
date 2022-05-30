@@ -1,19 +1,94 @@
 matches:
-  - trigger: ;f
-    replace: "feat: " # feat : 새로운 기능에 대한 커밋
-  - trigger: ;x
-    replace: "fix: " # fix : 버그 수정에 대한 커밋
-  - trigger: ;b
-    replace: "build: " # build : 빌드 관련 파일 수정에 대한 커밋
-  - trigger: ;c 
-    replace: "chore: " # chore : 그 외 자잘한 수정에 대한 커밋
-  - trigger: ;i
-    replace: "ci: " # ci : CI관련 설정 수정에 대한 커밋
-  - trigger: ;d
-    replace: "docs: " # docs : 문서 수정에 대한 커밋
-  - trigger: ;s
-    replace: "style: " # style : 코드 스타일 혹은 포맷 등에 관한 커밋
-  - trigger: ;r
-    replace: "refactor: " # refactor :  코드 리팩토링에 대한 커밋
-  - trigger: ;t
-    replace: "test: " # test : 테스트 코드 수정에 대한 커밋
+  - trigger: f;
+    replace: "{{output}}feat: " # feat : 새로운 기능에 대한 커밋
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - ✨
+            - 🤗
+            - 👻 
+  - trigger: x;
+    replace: "{{output}}fix: " # fix : 버그 수정에 대한 커밋
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - 🛠
+            - 🔨
+            - 🔧
+  - trigger: b;
+    replace: "{{output}}build: " # build : 빌드 관련 파일 수정에 대한 커밋
+    vars:  
+      - name: output
+        type: random
+        params:
+          choices:
+            - 🏗
+            - 🏟
+  - trigger: c;
+    replace: "{{output}}chore: " # chore : 그 외 자잘한 수정에 대한 커밋
+    vars:  
+      - name: output
+        type: random
+        params:
+          choices:
+            - 🐥
+            - 🪶
+            - 🐛
+  - trigger: i;
+    replace: "{{output}}ci: " # ci : CI관련 설정 수정에 대한 커밋
+    vars:  
+      - name: output
+        type: random
+        params:
+          choices:
+            - 💽
+            - 🖥
+            - 💻
+  - trigger: d;
+    replace: "{{output}}docs: " # docs : 문서 수정에 대한 커밋
+    vars:  
+      - name: output
+        type: random
+        params:
+          choices:
+            - 📖
+            - 📕
+            - 📒
+            - 📓
+            - 📔
+            - 📗
+  - trigger: s;
+    replace: "{{output}}style: " # style : 코드 스타일 혹은 포맷 등에 관한 커밋
+    vars:  
+      - name: output
+        type: random
+        params:
+          choices:
+            - 🧥
+            - 👗
+            - 🧢
+            - 🧣
+  - trigger: r;
+    replace: "{{output}}refactor: " # refactor :  코드 리팩토링에 대한 커밋
+    vars:  
+      - name: output
+        type: random
+        params:
+          choices:
+            - 🧤
+            
+            - 💫
+  - trigger: t;
+    replace: "{{output}}test: " # test : 테스트 코드 수정에 대한 커밋
+    vars:  
+      - name: output
+        type: random
+        params:
+          choices:
+            - 🧪
+            - 🧑‍💻
+            - 👁
