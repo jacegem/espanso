@@ -1,0 +1,6 @@
+matches:
+  - trigger: "l;"
+    replace: "localhost:"
+  - trigger: "li;"
+    replace: "localhost:8888/ide"
+  

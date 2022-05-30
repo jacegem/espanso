@@ -4,5 +4,7 @@
 filter_class: com.google.Chrome
 extra_includes:
   - "../match/_code_block.yml"
+  - "../match/_chrome.yml" 
+  - "../match/_emoji.yml"
   
 

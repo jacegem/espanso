@@ -11,9 +11,9 @@ global_vars:
     params:
       echo: Hey
 matches:
-  - trigger: ":es"
+  - trigger: ":es:"
     replace: Hi there!
-  - trigger: ":date"
+  - trigger: ":date:"
     replace: "{{mydate}}"
     vars:
       - name: mydate
