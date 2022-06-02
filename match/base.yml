@@ -20,7 +20,7 @@ matches:
         type: date
         params:
           format: "%m/%d/%Y"
-  - trigger: ":ip"
+  - trigger: ";ip;"
     replace: "{{output}}"
     vars:
       - name: output

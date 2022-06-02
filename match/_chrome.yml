@@ -3,6 +3,8 @@ matches:
     replace: "localhost:"
   - trigger: "li;"
     replace: "localhost:8888/ide"
+  - trigger: "l8;"
+    replace: "localhost:8888/ide"    
   - trigger: "l3;"
     replace: "localhost:3000/"
   

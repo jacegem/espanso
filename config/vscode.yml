@@ -6,5 +6,6 @@ extra_includes:
   - "../match/_vscode.yml"
   - "../match/_quote.yml"
   - "../match/_commit_type.yml"
+  - "../match/_emoji.yml"
   # - "../match/_bracket.yml"
 

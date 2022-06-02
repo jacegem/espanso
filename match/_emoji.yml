@@ -2,55 +2,55 @@
 matches:
   - trigger: .;
     replace: · 
-  - trigger: c;
-    replace: ✅ 
+  - trigger: cc;
+    replace: "✅ "
   - trigger: ㅊ;
     replace: ✅ 
-  - trigger: t;
+  - trigger: bb;
     replace: ⬜️ 
   - trigger: ㅅ;
     replace: ⬜️ 
-  - trigger: x;
+  - trigger: xx;
     replace: ❌ 
   - trigger: ㅌ;
     replace: ❌ 
-  - trigger: o;
+  - trigger: oo;
     replace: ⭕️ 
   - trigger: ㅐ;
     replace: ⭕️ 
-  - trigger: d;
+  - trigger: dd;
     replace: 🔶 
   - trigger: ㅇ;
     replace: 🔶 
-  - trigger: m;
+  - trigger: mm;
     replace: 🎦 
   - trigger: ㅡ;
     replace: 🎦 
-  - trigger: u;
+  - trigger: uu;
     replace: 👍 
   - trigger: ㅕ;
     replace: 👍 
-  - trigger: i;
+  - trigger: ii;
     replace: ✨ 
   - trigger: ㅑ;
     replace: ✨ 
-  - trigger: b;
+  - trigger: bb;
     replace: 📖 
   - trigger: ㅠ;
     replace: 📖 
-  - trigger: e;
+  - trigger: ee;
     replace: ❗️ 
   - trigger: ㄷ;
     replace: ❗️ 
-  - trigger: ;;q
+  - trigger: qq;
     replace: ❓ 
   - trigger: ;;ㅂ
     replace: ❓ 
-  - trigger: ;;z
+  - trigger: zz;
     replace: ⚡️ 
   - trigger: ;;ㅋ
     replace: ⚡️ 
-  - trigger: ;;w
+  - trigger: ww;
     replace: ✨ 
   - trigger: ;;ㅈ
     replace: ✨ 
