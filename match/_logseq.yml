@@ -2,7 +2,7 @@
 # Original file: user/logseq.yml
 
 matches:
-  - trigger: ;c
+  - trigger: ;cc
     replace: "```clojure$|$```"
   - trigger: ;j
     replace: "```json$|$```"

@@ -40,18 +40,21 @@ matches:
       $|$
       ....
   - trigger: ;py
+    word: true
     replace: |
       [source,python]$|$
   - trigger: ;ㅔㅛ
     replace: |
       [source,python]$|$
-  - trigger: ;cl
+  - trigger: ;sc
+    word: true
     replace: |
       [source,clojure]$|$
   - trigger: ;ㅊㅣ
     replace: |
       [source,clojure]$|$
   - trigger: ;ta
+    word: true
     replace: |
       ....
       |===

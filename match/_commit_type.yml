@@ -1,6 +1,7 @@
 matches:
-  - trigger: f;
-    replace: "{{output}} feat: " # feat : 새로운 기능에 대한 커밋    
+  - trigger: ;f
+    replace: "{{output}} feat:" # feat : 새로운 기능에 대한 커밋    
+    word: true
     vars:
       - name: output
         type: random
@@ -9,8 +10,9 @@ matches:
             - ✨
             - 🤗
             - 👻 
-  - trigger: x;
-    replace: "{{output}} fix: " # fix : 버그 수정에 대한 커밋  
+  - trigger: ;fi
+    replace: "{{output}} fix:" # fix : 버그 수정에 대한 커밋  
+    word: true
     vars:
       - name: output
         type: random
@@ -19,8 +21,9 @@ matches:
             - 🛠
             - 🔨
             - 🔧
-  - trigger: b;
-    replace: "{{output}} build: " # build : 빌드 관련 파일 수정에 대한 커밋
+  - trigger: ;b
+    replace: "{{output}} build:" # build : 빌드 관련 파일 수정에 대한 커밋
+    word: true
     vars:  
       - name: output
         type: random
@@ -28,8 +31,9 @@ matches:
           choices:
             - 🏗
             - 🏟
-  - trigger: c;
-    replace: "{{output}} chore: " # chore : 그 외 자잘한 수정에 대한 커밋
+  - trigger: ;c
+    replace: "{{output}} chore:" # chore : 그 외 자잘한 수정에 대한 커밋
+    word: true
     vars:
       - name: output
         type: random
@@ -37,9 +41,12 @@ matches:
           choices:
             - 🐥
             - 🪶
-            - 🐛
-  - trigger: i;
-    replace: "{{output}} ci: " # ci : CI관련 설정 수정에 대한 커밋
+            - 🐶
+            - 🐣
+            - 🌱
+  - trigger: ;i
+    replace: "{{output}} ci:" # ci : CI관련 설정 수정에 대한 커밋
+    word: true
     vars:  
       - name: output
         type: random
@@ -48,8 +55,9 @@ matches:
             - 💽
             - 🖥
             - 💻
-  - trigger: d;
-    replace: "{{output}} docs: " # docs : 문서 수정에 대한 커밋    
+  - trigger: ;d
+    replace: "{{output}} docs:" # docs : 문서 수정에 대한 커밋    
+    word: true
     vars:  
       - name: output
         type: random
@@ -61,8 +69,9 @@ matches:
             - 📓
             - 📔
             - 📗
-  - trigger: s;
-    replace: "{{output}} style: " # style : 코드 스타일 혹은 포맷 등에 관한 커밋    
+  - trigger: ;s
+    replace: "{{output}} style:" # style : 코드 스타일 혹은 포맷 등에 관한 커밋    
+    word: true
     vars:  
       - name: output
         type: random
@@ -72,8 +81,9 @@ matches:
             - 👗
             - 🧢
             - 🧣
-  - trigger: r;
-    replace: "{{output}} refactor: " # refactor :  코드 리팩토링에 대한 커밋    
+  - trigger: ;r
+    replace: "{{output}} refactor:" # refactor :  코드 리팩토링에 대한 커밋    
+    word: true
     vars:  
       - name: output
         type: random
@@ -81,8 +91,9 @@ matches:
           choices:
             - 🧤 
             - 💫
-  - trigger: t;
-    replace: "{{output}} test: " # test : 테스트 코드 수정에 대한 커밋
+  - trigger: ;t
+    replace: "{{output}} test:" # test : 테스트 코드 수정에 대한 커밋
+    word: true
     vars:  
       - name: output
         type: random

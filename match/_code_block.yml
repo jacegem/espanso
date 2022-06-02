@@ -4,16 +4,16 @@
 matches:
   - trigger: ",."
     replace: "→ "
-  - trigger: ;c
+  - trigger: ;cc
     replace: |
       <code clojure>
       $|$
       </code>
     backend: Auto
-  - trigger: ";d"
+  - trigger: ";cd"
     replace: |
       <code dart>
       $|$
       </code>
-  - trigger: ";t"
+  - trigger: ";tag"
     replace: "{{tag>$|$}}"
