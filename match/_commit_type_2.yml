@@ -1,0 +1,24 @@
+
+
+matches:
+  - trigger: ;fe
+    replace: "{{output}} feat: " # feat : 새로운 기능에 대한 커밋    
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            
+            - "Everything you can imagine is real."
+            - "Whatever you do, do it well."
+  - trigger: ":quote"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "Every moment is a fresh beginning."
+            - "Everything you can imagine is real."
+            - "Whatever you do, do it well."
+

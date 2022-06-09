@@ -2,4 +2,5 @@
 
 matches:
   - trigger: "''"
-    replace: "\"$|$\""
+    replace: '"$|$"'
+   

@@ -43,5 +43,8 @@ matches:
     replace: "($|$)"
   - trigger: "0/0"
     replace: "0.0.0.0/0"
+  - trigger: "10;"
+    replace: "10시 [[플랫폼실 스탠드업]]"
+    
 
     

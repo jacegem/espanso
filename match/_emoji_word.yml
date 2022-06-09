@@ -1,0 +1,42 @@
+
+matches:
+  - trigger: ;.
+    word: true
+    replace: · 
+  - trigger: ;c    
+    word: true
+    replace: ✅
+  - trigger: ;b;
+    word: true
+    replace: ⬜️ 
+  - trigger: ;x
+    word: true
+    replace: ❌ 
+  - trigger: ;o
+    word: true
+    replace: ⭕️ 
+  - trigger: ;d
+    word: true
+    replace: 🔶 
+  - trigger: ;uu
+    word: true
+    replace: 👍 
+  - trigger: ;i
+    word: true
+    replace: ✨ 
+  - trigger: ;d
+    word: true
+    replace: 📖 
+  - trigger: ;e
+    word: true
+    replace: ❗️ 
+  - trigger: ;q
+    word: true
+    replace: ❓ 
+  - trigger: ;z
+    word: true
+    replace: ⚡️ 
+  - trigger: ;w
+    word: true
+    replace: ✨
+  

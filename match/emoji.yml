@@ -2,9 +2,9 @@
 # Original file: user/emoji.yml
 
 matches:
-  - trigger: ;;.
+  - trigger: ;;.    
     replace: ·
-  - trigger: ;;c
+  - trigger: ;;c        
     replace: ✅
   - trigger: ;;ㅊ
     replace: ✅

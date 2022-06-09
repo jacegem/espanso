@@ -3,5 +3,6 @@
 
 auto_restart: true
 
-keyboard_layout: { layout: "kr" }
+# keyboard_layout: { layout: "kr" }
 
+# search_shortcut: ALT+SHIFT+SPACE

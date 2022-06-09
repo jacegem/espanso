@@ -8,7 +8,7 @@ matches:
           choices:
             - ✨
             - 🤗
-            - 👻 
+            - 👻
   - trigger: ;fi
     replace: "{{output}} fix: " # fix : 버그 수정에 대한 커밋  
     vars:

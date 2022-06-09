@@ -3,9 +3,13 @@
 
 filter_class: com.microsoft.VSCode
 extra_includes:
-  - "../match/_vscode.yml"
+  - "../match/_vscode.yml"  
   - "../match/_quote.yml"
   - "../match/_commit_type.yml"
-  - "../match/_emoji.yml"
+  - "../match/_emoji_word.yml"
   # - "../match/_bracket.yml"
 
+
+# title: 'vscode.yml — espanso'
+# exec: '/Applications/Visual Studio Code.app'
+# class: 'com.microsoft.VSCode'
