@@ -10,6 +10,12 @@ matches:
       $|$
       </code>
     backend: Auto
+  - trigger: ;cl
+    replace: |
+      <code lua>
+      $|$
+      </code>
+    backend: Auto
   - trigger: ";cd"
     replace: |
       <code dart>
@@ -20,5 +26,5 @@ matches:
       <code shell>
       $|$
       </code>
-  - trigger: ";tag"
+  - trigger: ";ta"
     replace: "{{tag>$|$}}"
