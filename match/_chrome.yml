@@ -7,4 +7,8 @@ matches:
     replace: "localhost:8888/ide"    
   - trigger: "l3;"
     replace: "localhost:3000/"
+  - trigger: ";qu"
+    replace: "<blockquote>$|$<cite></cite></blockquote>"
+  - trigger: ";/"
+    replace: "[[open/$|$]]"
   

@@ -5,7 +5,7 @@ matches:
   - trigger: ㅐㅏㄱ
     replace: OKR
   - trigger: ㅁㅔㅑ
-    replace: " API"
+    replace: "API"
   - trigger: ㅕㄱㅣ
     replace: URL
     word: true

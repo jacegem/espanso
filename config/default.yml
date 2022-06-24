@@ -3,6 +3,21 @@
 
 auto_restart: true
 
-# keyboard_layout: { layout: "kr" }
+# inject_delay: 42
+
+keyboard_layout: { layout: "kr" }
 
 # search_shortcut: ALT+SHIFT+SPACE
+
+
+# https://github.com/federico-terzi/espanso/issues/901#issuecomment-1002751974
+# https://gist.github.com/jatcwang/ae3b7019f219b8cdc6798329108c9aee
+# keyboard_layout:
+#   rules: "evdev"
+#   model: "pc104"
+#   layout: "kr"
+#   variant: "kr104"
+#   options: "korean:ralt_rctrl"
+
+# evdev_modifier_delay: 20
+

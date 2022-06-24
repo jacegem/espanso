@@ -31,7 +31,7 @@ matches:
     replace: tomorrow
   - trigger: /ㅎㅏ
     replace: todo
-  - regex: "(?P<char>[a-zA-Z0-35-8]);"
+  - regex: "(?P<char>[a-zA-Z1-35-8]);"
     replace: "{{char}}_"
   - regex: ";var"
     replace: "variable"
@@ -41,10 +41,12 @@ matches:
     replace: "${$|$}"
   - regex: "9;"
     replace: "($|$)"
-  - trigger: "0/0"
+  - trigger: ";/0"
     replace: "0.0.0.0/0"
-  - trigger: "10;"
+  - trigger: ";10"
     replace: "10시 [[플랫폼실 스탠드업]]"
-    
+
+
+  
 
     

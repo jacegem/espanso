@@ -6,5 +6,6 @@ extra_includes:
   - "../match/_code_block.yml"
   - "../match/_chrome.yml" 
   - "../match/_emoji.yml"
+  - "../match/_link.yml" 
   
 

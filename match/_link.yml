@@ -1,0 +1,5 @@
+matches:
+  - trigger: ;gh
+    replace: "https://github.com/"
+  - trigger: ;hs
+    replace: "https://"

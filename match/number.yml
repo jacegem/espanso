@@ -2,26 +2,26 @@
 # Original file: user/number.yml
 
 matches:
-  - trigger: ;1
+  - trigger: ;1;
     replace: ⓵
-  - trigger: ;2
+  - trigger: ;2;
     replace: ⓶
-  - trigger: ;3
+  - trigger: ;3;
     replace: ⓷
-  - trigger: ;4
+  - trigger: ;4;
     replace: ⓸
-  - trigger: ;5
+  - trigger: ;5;
     replace: ⓹
-  - trigger: ;6
+  - trigger: ;6;
     replace: ⓺
-  - trigger: ;7
+  - trigger: ;7;
     replace: ⓻
-  - trigger: ;8
+  - trigger: ;8;
     replace: ⓼
-  - trigger: ;9
+  - trigger: ;9;
     replace: ⓽
-  - trigger: ;10
+  - trigger: ;10;
     replace: 🔟
-  - trigger: ;00
+  - trigger: ;00;
     replace: 💯
 

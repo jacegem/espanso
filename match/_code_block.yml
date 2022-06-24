@@ -21,10 +21,32 @@ matches:
       <code dart>
       $|$
       </code>
+  - trigger: ";cj"
+    replace: |
+      <code json>
+      $|$
+      </code>
   - trigger: ";cs"
     replace: |
       <code shell>
       $|$
       </code>
+  - trigger: ";ㅊㄴ "
+    replace: |
+      <code shell>
+      $|$
+      </code>
+  - trigger: ";cy"
+    replace: |
+      <code yml>
+      $|$
+      </code>
+  - trigger: ";cp"
+    replace: |
+      <code python>
+      $|$
+      </code>
   - trigger: ";ta"
     replace: "{{tag>$|$}}"
+  - trigger: "^ㅁ^"
+    replace: ":)"

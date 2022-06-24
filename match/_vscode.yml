@@ -15,18 +15,18 @@ matches:
     replace: "->>"
   - trigger: ":div"
     replace: "<div>$|$</div>"
-  - trigger: ".ㅡㅇ"
+  - trigger: ".ㅇㅇ"
     replace: ".md"
   - trigger: ㅑㅡㅁㅎㄷ
     replace: image
   - trigger: ".ㅁㅇㅐㅊ"
     replace: ".adoc"
-  - trigger: ;qu
+  - triggers: [";qu", ";ㅏㅏ"]
     replace: |
       [quote]$|$
-  - trigger: ;ㅂㅕ
-    replace: |
-      [quote]$|$
+  # - trigger: ;ㅂ
+  #   replace: |
+  #     [quote]$|$
   - trigger: ;so
     replace: |
       [source]
@@ -84,41 +84,65 @@ matches:
   - trigger: p
     replace: +
     word: true
-  - trigger: m
-    replace: "{$|$}"
-    word: true
-  - trigger: vv
-    replace: "[$|$]"
-    word: true
-  - trigger: ;v
-    replace: "[$|$]"
-  - trigger: k
-    replace: ":$|$"
-    word: true
-  - trigger: mk
-    replace: "{:$|$}"
-    word: true
-  - trigger: mks
-    replace: "{:keys [$|$]}"
-    word: true
-  - trigger: vmks
-    replace: "[{:keys [$|$]}]"
-    word: true
-  - trigger: vk
-    replace: "[:$|$]"
-    word: true
-  - trigger: lo
-    replace: (or $|$)
-    word: true
-  - trigger: la
-    replace: (and $|$)
-    word: true
-  - trigger: lge
-    replace: (>= $|$)
-    word: true
-  - trigger: lle
-    replace: (<= $|$)
-    word: true
-  - trigger: lt
-    replace: (throw $|$)
-    word: true
+  # - trigger: m
+  #   replace: "{$|$}"
+  #   word: true
+  # - trigger: vv
+  #   replace: "[$|$]"
+  #   word: true
+  # - trigger: ;v
+  #   replace: "[$|$]"
+  # - trigger: k
+  #   replace: ":$|$"
+  #   word: true
+  # - trigger: mk
+  #   replace: "{:$|$}"
+  #   word: true
+  # - trigger: mks
+  #   replace: "{:keys [$|$]}"
+  #   word: true
+  # - trigger: vmks
+  #   replace: "[{:keys [$|$]}]"
+  #   word: true
+  # - trigger: vk
+  #   replace: "[:$|$]"
+  #   word: true
+  # - trigger: lo
+  #   replace: (or $|$)
+  #   word: true
+  # - trigger: la
+  #   replace: (and $|$)
+  #   word: true
+  # - trigger: lge
+  #   replace: (>= $|$)
+  #   word: true
+  # - trigger: lle
+  #   replace: (<= $|$)
+  #   word: true
+  # - trigger: lt
+  #   replace: (throw $|$)
+  #   word: true
+  - trigger: ;nr  
+    replace: |
+      note right      
+      $|$
+      end note
+  - trigger: :test
+    replace: "! #:$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+  - trigger: ":file"
+    replace: "{{form1.file}}"
+    vars:
+      - name: files
+        type: shell
+        params:
+          cmd: "find ~/Documents -maxdepth 1"
+      - name: form1
+        type: form
+        params:
+          layout: |
+            Select file:
+            [[file]]
+          fields:
+            file:
+              type: list
+              values: "{{files}}"
