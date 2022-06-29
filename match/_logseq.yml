@@ -4,9 +4,9 @@
 matches:
   - trigger: ;cc
     replace: "```clojure$|$```"
-  - trigger: ;j
+  - trigger: ;cj
     replace: "```json$|$```"
-  - trigger: ;s
+  - trigger: ;cs
     replace: "```shell$|$```"
   - trigger: " ne"
     replace: " !="

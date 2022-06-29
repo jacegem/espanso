@@ -13,8 +13,8 @@ matches:
     replace: "->"
   - trigger: "0="
     replace: "->>"
-  - trigger: ":div"
-    replace: "<div>$|$</div>"
+  # - trigger: ":div"
+  #   replace: "<div>$|$</div>"
   - trigger: ".ㅇㅇ"
     replace: ".md"
   - trigger: ㅑㅡㅁㅎㄷ
@@ -129,20 +129,20 @@ matches:
       end note
   - trigger: :test
     replace: "! #:$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
-  - trigger: ":file"
-    replace: "{{form1.file}}"
-    vars:
-      - name: files
-        type: shell
-        params:
-          cmd: "find ~/Documents -maxdepth 1"
-      - name: form1
-        type: form
-        params:
-          layout: |
-            Select file:
-            [[file]]
-          fields:
-            file:
-              type: list
-              values: "{{files}}"
+  # - trigger: ":file"
+  #   replace: "{{form1.file}}"
+  #   vars:
+  #     - name: files
+  #       type: shell
+  #       params:
+  #         cmd: "find ~/Documents -maxdepth 1"
+  #     - name: form1
+  #       type: form
+  #       params:
+  #         layout: |
+  #           Select file:
+  #           [[file]]
+  #         fields:
+  #           file:
+  #             type: list
+  #             values: "{{files}}"
