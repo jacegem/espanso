@@ -1,0 +1,8 @@
+matches:
+  - trigger: ;cc
+    replace: "```clojure$|$\n```"
+  - trigger: ;cj
+    replace: "```json$|$\n```"      
+  - trigger: ;cs
+    replace: "```shell$|$\n```"
+

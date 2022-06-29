@@ -7,6 +7,7 @@ extra_includes:
   - "../match/_quote.yml"
   - "../match/_commit_type.yml"
   - "../match/_emoji_word.yml"
+  - "../match/_markdown_code.yml"
   # - "../match/_bracket.yml"
 
 
